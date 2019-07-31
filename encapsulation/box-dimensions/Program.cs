@@ -13,11 +13,16 @@ namespace box_dimensions
             int h = 0;
             int w = 0;
             int l = 0;
-
+                        
             h = GetData(h, "Height");
             w = GetData(w, "Width");
             l = GetData(l, "Length");
 
+            Box b1 = new Box(h, w, l);
+            Console.WriteLine(b1.GetSurfaceArea());
+            Console.WriteLine(b1.GetVolume());
+
+            Console.ReadLine();
             
         }
         static int GetData(int number, string info)
@@ -66,5 +71,8 @@ namespace box_dimensions
             return $"The surface area of the box is: {2 * (Height * Width) + 2 * (Height * Length) + 2 * (Length * Width)}";
         }
         public string GetVolume()
+        {
+            return $"The volume of the box is: {Length * Width * Height}";
+        }
     }
 }

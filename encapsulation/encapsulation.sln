@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "student-records", "student-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "box-dimensions", "box-dimensions\box-dimensions.csproj", "{4D547A3E-6F69-479C-B163-F87B1845DF28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{826B0069-8124-4646-8C63-FA4E36BE8B65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4D547A3E-6F69-479C-B163-F87B1845DF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D547A3E-6F69-479C-B163-F87B1845DF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D547A3E-6F69-479C-B163-F87B1845DF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{826B0069-8124-4646-8C63-FA4E36BE8B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826B0069-8124-4646-8C63-FA4E36BE8B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{826B0069-8124-4646-8C63-FA4E36BE8B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826B0069-8124-4646-8C63-FA4E36BE8B65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
